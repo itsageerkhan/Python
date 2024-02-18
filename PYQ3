@@ -1,0 +1,7 @@
+n=int(input('Enter no:'))
+if(n>0):
+    print('POSITIVE')
+elif(n<0):
+    print('NEGATIVE')
+else:
+    print('NEITHER POSITIVE NOR NEGATIVE OR 0')
