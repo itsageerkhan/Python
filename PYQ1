@@ -1,3 +1,4 @@
+#PYQ1 - WAP to find factorial of a no.?
 n=int(input('Enter no:'))
 fact=1
 if(n<0):
