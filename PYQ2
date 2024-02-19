@@ -1,13 +1,8 @@
-#PYQ2 - WAP to check numbers in a list by dividing them with a number to check whether they are divisible or not
+#PYQ2 - How to find no. of vowels in a string?
 
-list1=[]
-n=int(input('Enter Limit'))
-for i in range(0,n):
-    e=int(input('Enter Elements:'))
-    list1.append(e)
-no=int(input('Enter The Number To Check With?'))
-for i in list1:
-    if(i%no==0):
-        print('The no.',i,'is divisible by',no)
-    else:
-        print('The no.',i,'is not divisible by',no)
+s=input('Enter a string:')
+vc=0
+for char in s:
+    if(char in 'aAeEiIoOuU'):
+        vc+=1
+print('No. of vowels: ',vc)
