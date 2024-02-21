@@ -1,4 +1,4 @@
-#PYQ3 - How to Reverse a no?
+#PYQ4 - How to Reverse a no?
 number = int(input("Enter a positive integer: "))
 rev = 0
 while(number!=0):
