@@ -1,0 +1,13 @@
+#PYQ7 - How to find sum of even no. in a  list?
+
+listn=[]
+n=int(input("How many elements?"))
+for i in range(1,n+1):
+    e=int(input("Enter the elements"))
+    listn.append(e)
+print(listn)
+Sum=0
+for j in listn:
+    if(j%2==0):
+        Sum+=j
+print(Sum)
