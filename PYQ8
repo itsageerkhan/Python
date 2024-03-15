@@ -1,0 +1,14 @@
+#PYQ8 - How to Find Fibonacci Series till n?
+
+n=int(input("Enter Length"))
+n1,n2=0,1
+nn=n2 
+c=1
+print(n1)
+print(n2)
+while c<=n:
+	print(nn, end="\n")
+	c+= 1
+	n1, n2 = n2, nn
+	nn = n1 + n2
+print()
