@@ -1,0 +1,12 @@
+#PYQ9 - Check Whether the given strings are Anagram? 
+
+def Anagram(s1, s2):
+    
+    if(sorted(s1)==sorted(s2)):
+        print("Anagrams.")
+    else:
+        print("NOT Anagrams.")        
+        
+s1 = input("Enter string1: ")
+s2 = input("Enter string2: ")
+Anagram(s1, s2)
