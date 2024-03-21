@@ -1,0 +1,9 @@
+#PYQ10 - To find the no. of a ch in a string?
+
+word = input('Enter a word:')
+ch = input('Enter the character:')
+count = 0
+for i in word:
+    if i == ch:
+        count += 1
+print(count)
