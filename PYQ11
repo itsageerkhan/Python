@@ -1,0 +1,12 @@
+#PYQ11 - How to Linear Search?
+
+list1 = [8,8,3,7,5,8,9,7,6,0]
+f=int(input("Enter no. to search:"))
+fi=[]
+for i in range (len(list1)):
+    if f==list1[i]:
+        fi.append(i)
+if fi:
+    print("Yes! Found at indices:",fi)
+else:
+    print("NOT FOUND")
